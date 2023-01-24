@@ -45,7 +45,7 @@ def main():
                     "setups": {
                         "l200": {
                             "paths": {
-                                "orig":           "/data1/shared/l60/l60-daq/daq-v01",
+                                "orig":           "/global/cfs/projectdirs/m2676/data/lngs/l200_commissioning/orca_data/Data",
 
                                 "dataflow":       "$_/dataflow",
                                 
@@ -79,8 +79,8 @@ def main():
                                 "cache":          "$_/software/python/cache"
                             },
                             "execenv": {
-                                "cmd": "apptainer run",
-                                "arg": "/data1/shared/l60/l60-prodven-v1/containers/legendexp_legend-base_latest.sif"
+                                "cmd": "shifter",
+                                "arg": "--image=legendexp/legend-base:latest"
                             }
                         }
                     }
