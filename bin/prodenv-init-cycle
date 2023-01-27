@@ -1,6 +1,6 @@
 #!/usr/bin/env python3-snakemake
 
-repo_metadata_path = 'git@github.com:legend-exp/legend-metadata.git'
+repo_metadata_path = 'git@github.com:SamuelBorden/legend-metadata.git'
 repo_metadata_branch = 'main'
 
 repo_pygama_path = 'git@github.com:legend-exp/pygama.git'
