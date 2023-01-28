@@ -6,11 +6,11 @@ repo_metadata_branch = 'main'
 repo_pygama_path = 'git@github.com:legend-exp/pygama.git'
 repo_pygama_branch = 'main'
 
-repo_pylegendmeta_path = 'git@github.com:legend-exp/pylegendmeta.git'
-repo_pylegendmeta_branch = 'main'
+repo_pylegendmeta_path = 'git@github.com:SamuelBorden/pylegendmeta.git'
+repo_pylegendmeta_branch = 'nersc'
 
-repo_dataflow_path = 'git@github.com:legend-exp/legend-dataflow.git'
-repo_dataflow_branch = 'master'
+repo_dataflow_path = 'git@github.com:SamuelBorden/legend-dataflow.git'
+repo_dataflow_branch = 'nersc'
 
 import sys, json, os, string, argparse
 
@@ -45,7 +45,7 @@ def main():
                     "setups": {
                         "l200": {
                             "paths": {
-                                "orig":           "/global/cfs/projectdirs/m2676/data/lngs/l200_commissioning/orca_data/Data",
+                                "orig":           "/global/cfs/projectdirs/m2676/users/sjborden/l200/snake_test",
 
                                 "dataflow":       "$_/dataflow",
                                 
